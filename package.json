@@ -1,5 +1,10 @@
 {
   "scripts": {
-    "start": "docker-compose -f docker-compose.dev.yml up"
+    "start": "docker-compose -f docker-compose.dev.yml up",
+    "lint": "docker exec -it valhalla-frontend npm run lint",
+    "lint:strict": "docker exec -it valhalla-frontend npm run lint:strict"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1"
   }
 }

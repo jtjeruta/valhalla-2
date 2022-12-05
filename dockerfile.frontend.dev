@@ -1,4 +1,7 @@
 FROM node:16-bullseye
+USER root
+
+RUN npm config set cache /tmp --global
 
 COPY frontend /opt/app/
 WORKDIR /opt/app/
