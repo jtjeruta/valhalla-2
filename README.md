@@ -5,6 +5,7 @@
 ## Built With
 
 - [Vite + React + TS](https://vitejs.dev) - Vite build tool with react framework
+- [Tailwind](https://tailwindcss.com/) - UI toolkit
 
 ## Prerequisites
 
