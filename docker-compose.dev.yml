@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+    frontend:
+        container_name: valhalla-frontend
+        build:
+            context: ./
+            dockerfile: dockerfile.frontend.dev
+        volumes:
+            - ./frontend:/opt/app/
+        ports:
+            - "5173:5173"

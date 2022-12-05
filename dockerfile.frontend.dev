@@ -1,0 +1,6 @@
+FROM node:16-bullseye
+
+COPY frontend /opt/app/
+WORKDIR /opt/app/
+
+CMD [ "bash", "start-dev.sh" ]
