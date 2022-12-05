@@ -9,7 +9,7 @@
 
 ## Prerequisites
 
-- [docker & docker compose](https://docs.docker.com/compose/) (optional) - makes setup a lot easier
+- [docker & docker compose](https://docs.docker.com/compose/) - makes setup a lot easier
 - [npm](https://nodejs.org/en/) - node package manager
 
 ## Installation
